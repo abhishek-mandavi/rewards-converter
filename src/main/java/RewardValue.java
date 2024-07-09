@@ -27,13 +27,6 @@ public class RewardValue {
         return milesValue;
     }
 
-    public int convertCashToMiles() {
-        return (int) (cashValue / miles_to_cash_rate);
-    }
-
-    public double convertMilesToCash() {
-        return milesValue * miles_to_cash_rate;
-    }
 
     public static  void main(String[] args) {
 
